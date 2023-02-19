@@ -1,0 +1,86 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    height: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,wheat,pink,palevioletred,rgb(165, 23, 71),rgb(147, 23, 65),rgb(62, 5, 5));
+}
+.nav-items-container{
+    display: flex;
+    align-items: center; 
+   
+}
+.nav-items-container > nav{
+    margin-right: 50px;
+   font-size: 20px;
+   justify-content: 10px;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+}
+.nav-list > li{
+    margin-right: 20px;
+}
+.nav-list >:last-child{
+    margin-right: 10px;
+}
+.title{
+    color: palevioletred;
+    font-size: 40px;
+    text-align: center;
+   font-family:  Georgia, Times, 'Times New Roman', serif;
+
+}
+.link-container{
+    color: whitesmoke;
+}
+
+/* this is the Contact grid 
+*/
+.section-head{
+    text-align: center;
+    color: brown;
+    background-color: lightpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+.border{
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0 3pxm rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 15px;
+  width: 60%;
+}
+.form-label{
+    margin-left: 20%;
+}
+.form-control{
+    margin-left: 20%;
+
+}
+.form-check{
+    margin-left: 20%;
+
+}
+/* this is the Contact end-c*/
+/* this is the Contact form btn*/
+.btn-primary {
+    height: 60px;
+    padding: 8px;
+    border-radius: 8px;
+    background: linear-gradient(to right ,rgb(86, 12, 24),palevioletred, rgb(86, 12, 24));
+    color: white;
+    font-size: 24px;
+    border: none;
+    margin: 15px;
+    margin-left: 30%;
+}
+/* this is the Contact form-end btn*/

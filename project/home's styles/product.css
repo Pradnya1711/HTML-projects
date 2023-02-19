@@ -1,0 +1,87 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/*this is the header*/ 
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    height: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,wheat,pink,palevioletred,rgb(165, 23, 71),rgb(147, 23, 65),rgb(62, 5, 5));
+}
+.nav-items-container{
+    display: flex;
+    align-items: center; 
+   
+}
+.nav-items-container > nav{
+    margin-right: 50px;
+   font-size: 20px;
+   justify-content: 10px;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+}
+.nav-list > li{
+    margin-right: 20px;
+}
+.nav-list >:last-child{
+    margin-right: 10px;
+}
+.title{
+    color: palevioletred;
+    font-size: 40px;
+    text-align: center;
+   font-family:  Georgia, Times, 'Times New Roman', serif;
+
+}
+.link-container{
+    color: whitesmoke;
+}
+
+/*this is the end-header*/ 
+/*best seller*/
+/*best sec-head*/
+.section-title{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.content{
+    color: crimson;
+}
+/*best sec-head*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+.thumbnail{
+    border: 1px solid wheat;
+    border-radius: 8px;
+    box-shadow: 0 3pxm rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 15px;
+}
+.thumbnail-title{
+    text-align: center;
+    color: blueviolet;
+}
+.price{
+    text-align: center;
+    color: blueviolet;
+}
+.buy{
+    display: flex;
+    margin-left: 40%;
+}
+.buy-content{
+    background-color: lawngreen;
+    color: black;
+    border-radius: 5px;
+    border-width: 100;
+}
+/*best seller end*/

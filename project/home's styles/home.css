@@ -1,0 +1,169 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+/* this is the header */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    height: 80px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,wheat,pink,palevioletred,rgb(222, 65, 91),rgb(171, 15, 41),rgb(62, 5, 5));
+}
+.con{
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* this is the end-header */
+
+
+/* this is the navbar */
+.nav-items-container{
+    display: flex;
+    align-items: center; 
+   
+}
+.nav-items-container > nav{
+    margin-right: 50px;
+   font-size: 20px;
+   justify-content: 10px;
+}
+.title{
+    color: palevioletred;
+    font-size: 40px;
+    text-align: center;
+font-family:  Georgia, Times, 'Times New Roman', serif;
+
+}
+    .nav-list{
+    list-style-type: none;
+    display: flex;
+}
+.nav-list > li{
+    margin-right: 20px;
+}
+.nav-list >:last-child{
+    margin-right: 10px;
+}
+.icon{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px white;
+    background: rosybrown;
+    
+}
+.link-container{
+    color: whitesmoke;
+}
+/* this is the end-navbar */
+
+/* this is the section */
+
+#hero{
+    background-image: url(../images/flower.webp);
+    background-size: cover;
+    height: 60vh;
+    width: 98%;
+   margin: auto;
+   border-radius: 15px;
+   
+}
+
+
+
+.section-title{
+   color: brown;
+   font-family:  Georgia, Times, 'Times New Roman', serif;
+margin-top: 15px;
+
+}
+.section-title1{
+    color: brown;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+text-align: center;
+margin: 20px; 
+margin-top: 30px;
+ }
+.content{
+    margin-left: 10px;
+    color: crimson;
+    font-size: 20px;
+}
+.sec .section-container{
+   display: flex;
+   justify-content: space-between;
+   color: cadetblue;
+}
+.section-container > .section{
+text-transform: uppercase;
+font-size: larger;
+}
+
+.search-container input{
+    height: 24px;
+    border-radius: 24px;
+    outline: none;
+    border: 1px solid brown; 
+}
+/* this is the end-section */
+
+
+
+/*best seller*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+}
+.thumbnail{
+    border: 1px solid wheat;
+    border-radius: 8px;
+    box-shadow: 0 3pxm rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 15px;
+
+}
+.thumbnail-title{
+    text-align: center;
+    color: blueviolet;
+}
+.price{
+    text-align: center;
+    color: blueviolet;
+}
+.buy{
+    display: flex;
+    margin-left: 40%;
+}
+.buy-content{
+    background-color: lawngreen;
+    color: black;
+    border-radius: 5px;
+    border-width: 100;
+}
+/*best seller end*/
+.shop{
+    display: flex;
+  margin-left: 45%;
+}
+.shop-content{
+    background-color: lightsalmon;
+    color: darkred;
+    border-radius: 10px;
+    font-size: 25px;
+}
+/* this is the footer */
+
+footer{
+    background-image: linear-gradient(to right,black,palevioletred,black);
+    margin: 20px;
+    padding: 20px;
+    color: lightgrey;
+    border-radius: 10px;
+}
+
+
+/* this is the end-footer */
+
